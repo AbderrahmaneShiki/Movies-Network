@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#menu {
+    transition: 0.6s;
+}
+
+.CONT {
+    display: flex;
+    gap: 43%;
+    width: 100vw;
+    background-color: red;
+}
+
+.d {
+    background-color: red;
+}
+
+.d h1 {
+    margin-top: 15px;
+    font-family: Serif;
+}
+
+.sidemenu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 0px;
+    background-color: grey;
+    z-index: 1;
+    padding-top: 100px;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.sidemenu a {
+    padding: 8px;
+    font-size: 30px;
+    color: white;
+    display: block;
+}
+
+.sidemenu a:hover {
+    transition: 0.6s;
+    color: black;
+}
+
+.sidemenu .closebtn {
+    color: black;
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 45px;
+}
+
+#mainbox {
+    width: 35px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 8px;
+    color: black;
+    font-size: 35px;
+    padding: 4px;
+}
+
+#active {
+    background: red;
+}
+
+.first {
+    margin: 30px;
+}
+
+#do {
+    height: 90px;
+}
+
+.two {
+    margin: 30px;
+}
+
+.thri {
+    margin: 30px;
+    height: 11px;
+}
